@@ -12,3 +12,6 @@ iris_df['species'] = iris_data.target_names[iris_data.target]
 
 print("First few rows of the dataset:")
 print(iris_df.head())
+
+print("\nDataset information:")
+print(iris_df.info())
